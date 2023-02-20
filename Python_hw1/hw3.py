@@ -13,14 +13,14 @@
 # while 
 # print(number1)
 num = int(input('Введите номер Вашего билета: '))  
-sum_left = 0
-sum_right = 0
+sum_left_n = 0
+sum_right_n = 0
 for i in range(6):
     if i < 3:
-        sum_right += num // 10**i % 10
+        sum_right_n += num // 10 ** i % 10
     else:
-        sum_left  += num // 10**i % 10 
-if sum_left == sum_right:
+        sum_left_n  += num // 10 ** i % 10 
+if sum_left_n == sum_right_n:
     print('Поздравляем! У Вас счастливый билет!')
 else:
     print('Увы, Ваш билет не считливый...')  
