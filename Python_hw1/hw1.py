@@ -11,10 +11,8 @@ if len(str(a)) == 3:
   a = int(a)
   b = 0
   b = a % 10
-  a = a // 10
-  c = a % 10
-  a = a // 10
-  d = a % 10
+  c = a // 10 % 10
+  d = a // 100
   print(b + c + d)
   
 
