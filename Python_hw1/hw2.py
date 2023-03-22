@@ -8,11 +8,8 @@
 #     60 -> 10  40  10
 
 sum = int(input("Сколько всего сделали журавликов? "))
-part = sum / 3
-reas = part / 2
-kate = part * 2
+part = sum // 3
+peter =serj = part // 2
+kate = 2 * peter * 2
 
-kate = int(kate)
-peter = int(reas)
-serj = int(reas)
 print(f"Катиных журавликов - {kate}, а Петиных - {peter} и Сережиных - {serj}")
